@@ -31,6 +31,7 @@ order_items as (
 
         order_id,
         product_name,
+        product_category,
         customer_id,
         order_date,
         city,
@@ -38,7 +39,7 @@ order_items as (
         order_hour,
         quantity_ordered as item_quantity,
         price_each as item_price,
-        sales_amount as item_revenue
+        sales_amount as item_revenue,
 
     from sales
 
