@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: daily_product_revenue
+    tests:
+      - not_null:
+          column_name: product_name
+
+  - name: dim_customers
+    tests:
+      - unique:
+          column_name: customer_id
+      - not_null:
+          column_name: customer_id
+
+  - name: dim_product
+    tests:
+      - not_null:
+          column_name: product_name
+      - not_null:
+          column_name: product_category
+
+  - name: fct_order_items
+    tests:
+      - not_null:
+          column_name: order_id
+      - not_null:
+          column_name: customer_id
+      - not_null:
+          column_name: product_name
+      - not_null:
+          column_name: product_category
+
+  - name: fct_orders
+    tests:
+      - not_null:
+          column_name: order_id
+      - not_null:
+          column_name: customer_id

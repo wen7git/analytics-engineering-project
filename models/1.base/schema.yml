@@ -3,4 +3,6 @@ version: 2
 
 models:
     - name: base_sales_data
-      description: "A starter dbt model"
+      tests:
+      - not_null:
+          column_name: order_id
