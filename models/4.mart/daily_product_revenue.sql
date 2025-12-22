@@ -19,10 +19,12 @@ sales as (
 product_aggregate as (
 
     select
+
         order_date,
         product_name,
-        sum(item_revenue) as daily_revenue,
-        sum(item_quantity) as daily_units
+        sum(sales_amount) as total_revenue,
+        sum(quantity_ordered) as total_item_units,
+
     from sales
     group by 1,2
 
