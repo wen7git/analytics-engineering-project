@@ -10,6 +10,8 @@ This analytics engineering project focuses on analyzing **E-Commerce sales perfo
 The dashboard highlights **city-level demand concentration**, enabling identification of high-performing locations and order hotspots. It also evaluates customer ordering behavior across **days of the week** and **hours of the day** to identify **peak activity periods**.
 
 ## Dashboard Components  
+<img width="1397" height="633" alt="Screenshot 2025-12-23 at 9 10 02 PM" src="https://github.com/user-attachments/assets/4f2175d1-dff6-4749-9c37-8889678d2a94" />
+
 - **Geographic Distribution of Orders by City** – Heat map showing regional demand concentration  
 - **Orders by Day of the Week** – Weekly ordering pattern analysis  
 - **Orders by Hour of the Day** – Intraday demand and peak period identification  
