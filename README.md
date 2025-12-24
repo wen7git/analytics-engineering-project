@@ -36,10 +36,11 @@ The dashboard highlights **city-level demand concentration**, enabling identific
 - All insights and trends reflect behavior within this time period only.
 
 ## Tech Stack
-- **BigQuery** – Data storage and processing  
-- **SQL in dbt** – Data modeling and transformations  
-- **Hex** – Data visualization and analysis  
-- **Pandas** – Data manipulation within Hex
+- **BigQuery** – Cloud-based data storage and processing  
+- **SQL in dbt** – Data modeling and transformations, including **base, staging, intermediate, and mart models**; design of **fact** and **dimension** tables with **partitioning** by order date for **optimized querying**  
+- **Hex** – Interactive data visualization and analysis  
+- **Pandas** – Data manipulation and preprocessing within Hex  
+
 
 ## Use Cases
 - Demand forecasting and peak activity analysis  
